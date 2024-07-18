@@ -3,6 +3,19 @@
 .bg-color-name-title{
     background-color: #676770;
 }
+
+.ui-menu-color-home{
+    background-color: #e67e22;
+}
+.ui-menu-color-resume{
+    background-color: #867363;
+}
+.ui-menu-color-contact{
+    background-color: #b9a18c;
+}
+.ui-menu-color-download{
+    background-color: #66594e;
+}
 /* ---------------------------------------------heading */
 header{
     margin: 0;
@@ -35,4 +48,14 @@ header{
     margin-top: 20px;
     margin-bottom: 90px;
     font-size: 28px;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+.menu-container{
+    font-size: 0;
+}
+#nav li{
+    font-size: 14px;
+    padding: 0;
 }
