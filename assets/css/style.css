@@ -16,6 +16,22 @@
 .ui-menu-color-download{
     background-color: #66594e;
 }
+/* ---------------------------------------------Special padding/ margin */
+
+h1, h2, h3, h4 {
+    padding: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-weight: 300;
+    font-family: "Exo", sans-serif;
+    color: #fafafa;
+
+}
 /* ---------------------------------------------heading */
 header{
     margin: 0;
@@ -30,9 +46,9 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    transition: slideUp .5s ease-in-out forwards;
+    -moz-transition: slideUp .5s ease-in-out forwards;
+    -webkit-transition: slideUp .5s ease-in-out forwards;
 }
 .name{
     margin-top: 50px;
@@ -95,4 +111,12 @@ header{
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
+}
+/* ---------------------------------------------Footer */
+
+footer{
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
