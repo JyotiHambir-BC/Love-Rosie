@@ -120,3 +120,8 @@ footer{
     min-height: 120px;
     margin: 0;
 }
+
+.inline-block {
+    margin: 0;
+    display: inline-block;
+}
